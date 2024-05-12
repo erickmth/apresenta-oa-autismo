@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(63, 66, 255);
+    background-color: #0070C0;
     color: white;
     font-family: sans-serif;
     display: flex;
@@ -56,5 +56,11 @@ body {
     0% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
+  }
+  .centralizar{
+    display: block; /* Garante que a imagem ocupe todo o espaço disponível */
+    margin: 0 auto 20px auto; /* Centraliza a imagem horizontalmente e adiciona uma margem inferior */
+    width: 200px; /* Define a largura da imagem (ajuste conforme necessário) */
+    animation: float 4s ease-in-out infinite;
   }
   
