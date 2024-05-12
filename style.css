@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: rgb(63, 66, 255);
+    color: white;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -56,3 +57,4 @@ body {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
   }
+  
