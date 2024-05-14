@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        <img src="pontinhos.png" alt="3 pontinhos" class="imagem-canto" id="tres-pontinhos">
         <img src="spectrum.png" alt="Foto do Personagem Spectrum" class="centralizar-imagem">
         <p class="titulo">Obrigado por acessar o QR code!</p>
         <p class="subtitulo">Abaixo estão um quizz interativo e todo o conteúdo da apresentação.</p>
@@ -22,5 +23,16 @@
             </a>
         </div>
     </div>
+
+    <script>
+        // Seleciona a imagem pelo seu ID
+        var tresPontinhos = document.getElementById("tres-pontinhos");
+
+        // Adiciona um evento de clique à imagem
+        tresPontinhos.addEventListener("click", function() {
+            // Redireciona para a página "sobre.html"
+            window.location.href = "sobre.html";
+        });
+    </script>
 </body>
 </html>
