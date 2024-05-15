@@ -79,3 +79,26 @@ body {
     margin-top: 10px;
     color: #333;
   }
+
+
+
+  
+
+
+
+
+ 
+  .topic {
+    margin-bottom: 30px;
+  }
+
+  .topic-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .topic p {
+    text-align: center;
+  }
