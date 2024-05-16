@@ -14,17 +14,14 @@ body {
   p {
     margin-bottom: 10px;
   }  
-  #audio {
-    margin-top: 10px;
-  }
   
   .container {
-
+    max-width: 900px;
     margin: 0 auto;
   }
+  
   .imagem-pequena {
     width: 25%;
     height: 25%;
     text-align: center;
   }
-
