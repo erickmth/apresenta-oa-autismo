@@ -32,9 +32,52 @@ body {
     max-width: 500px;
     margin: 0 auto;
   }
+  
   .imagem-pequena {
     width: 25%;
     height: 25%;
     text-align: center;
   }
+  
+  /* Consultas de mídia para tornar a página responsiva */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
 
+  h1 {
+    font-size: 20px;
+  }
+
+  #audio {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #audio {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  #audio {
+    width: 30%;
+  }
+}
