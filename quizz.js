@@ -1,28 +1,93 @@
 const questions = [
   {
-      question: "1) O que é o Autismo?",
-      options: ["Um transtorno de desenvolvimento neurológico", "Uma escolha de vida", "Uma doença contagiosa"],
-      correct: 0
+    question: "1) O que é o autismo?",
+    options: [
+      "Um transtorno de desenvolvimento neurológico",
+      "Uma escolha de vida",
+      "Uma doença contagiosa"
+    ],
+    correct: 0
   },
   {
-      question: "2) Qual destas é UMA característica comum do autismo?",
-      options: ["Habilidade excepcional em esportes", "Alergia a certos alimentos", "Dificuldade em fazer contato visual"],
-      correct: 2
+    question: "2) Qual destas é UMA característica comum do autismo?",
+    options: [
+      "Habilidade excepcional em esportes",
+      "Alergia a certos alimentos",
+      "Dificuldade em fazer contato visual"
+    ],
+    correct: 2
   },
   {
-      question: "3) O autismo pode ser “curado”?",
-      options: ["Sim, com medicação adequada", "Não, mas pode ser gerenciado com terapias e suporte adequados", "Sim, com uma dieta especial"],
-      correct: 1
+    question: "3) O autismo pode ser “curado”?",
+    options: [
+      "Sim, com medicação adequada",
+      "Não, mas pode ser gerenciado com terapias e suporte adequados",
+      "Sim, com uma dieta especial"
+    ],
+    correct: 1
   },
   {
-      question: "4) Quando o autismo geralmente é diagnosticado?",
-      options: ["Na adolescência", "Na infância", "Na idade adulta"],
-      correct: 1
+    question: "4) Quando o autismo geralmente é diagnosticado?",
+    options: [
+      "Na adolescência",
+      "Na infância",
+      "Na idade adulta"
+    ],
+    correct: 1
   },
   {
-      question: "5) Por que é importante conscientizar sobre o autismo?",
-      options: ["Para aumentar as vendas de livros sobre autismo.", "Para promover a compreensão, aceitação e inclusão de pessoas com autismo", "Para reduzir o custo dos cuidados de saúde"],
-      correct: 1
+    question: "5) Por que é importante conscientizar sobre o autismo?",
+    options: [
+      "Para aumentar as vendas de livros sobre autismo.",
+      "Para promover a compreensão, aceitação e inclusão de pessoas com autismo",
+      "Para reduzir o custo dos cuidados de saúde"
+    ],
+    correct: 1
+  },
+  {
+    question: "6) Quem cunhou o termo “autismo”?",
+    options: [
+      "Leo Kanner, em 1943",
+      "Eugen Bleuler, em 1908",
+      "Hans Asperger, em 1944"
+    ],
+    correct: 1
+  },
+  {
+    question: "7) O que são as estereotipias?",
+    options: [
+      "Ações repetitivas que podem ajudar a pessoa com autismo a lidar com emoções e sensações",
+      "Um tipo de medicamento para o autismo",
+      "Um método de terapia para o autismo"
+    ],
+    correct: 0
+  },
+  {
+    question: "8) O que significa 'espectro' no termo 'Transtorno do Espectro Autista'?",
+    options: [
+      "Que o autismo é uma doença que pode ser transmitida de pessoa para pessoa",
+      "Que o autismo é um grupo de condições com diferentes níveis de intensidade e características",
+      "Que o autismo é uma doença que afeta diferentes partes do corpo"
+    ],
+    correct: 1
+  },
+  {
+    question: "9) O que é a ecolalia?",
+    options: [
+      "Repetição de frases ou palavras",
+      "Um tipo de dança popular entre pessoas com autismo",
+      "Um tipo de alimento que ajuda a melhorar o comportamento de pessoas com autismo"
+    ],
+    correct: 0
+  },
+  {
+    question: "10) No Brasil, quais recursos de assistência estão disponíveis para pessoas com autismo?",
+    options: [
+      "Tratamentos adequados com o SUS, acompanhamento de psicólogos, psiquiatras, terapias e atendimento ao CAPS",
+      "Acesso gratuito a universidades e escolas de elite",
+      "Auxílio financeiro mensal para todas as pessoas com autismo"
+    ],
+    correct: 0
   }
 ];
 
