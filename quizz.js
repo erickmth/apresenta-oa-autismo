@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "1) O que é o autismo?",
+    question: "1) O que é o Transtorno do Espectro Autista (TEA)?",
     options: [
       "Um transtorno de desenvolvimento neurológico",
       "Uma escolha de vida",
@@ -9,7 +9,7 @@ const questions = [
     correct: 0
   },
   {
-    question: "2) Qual destas é UMA característica comum do autismo?",
+    question: "2) Qual destas é UMA característica comum do TEA?",
     options: [
       "Habilidade excepcional em esportes",
       "Alergia a certos alimentos",
@@ -18,7 +18,7 @@ const questions = [
     correct: 2
   },
   {
-    question: "3) O autismo pode ser “curado”?",
+    question: "3) O TEA pode ser “curado”?",
     options: [
       "Sim, com medicação adequada",
       "Não, mas pode ser gerenciado com terapias e suporte adequados",
@@ -27,7 +27,7 @@ const questions = [
     correct: 1
   },
   {
-    question: "4) Quando o autismo geralmente é diagnosticado?",
+    question: "4) Quando o TEA geralmente é diagnosticado?",
     options: [
       "Na adolescência",
       "Na infância",
@@ -36,10 +36,10 @@ const questions = [
     correct: 1
   },
   {
-    question: "5) Por que é importante conscientizar sobre o autismo?",
+    question: "5) Por que é importante conscientizar sobre o TEA?",
     options: [
       "Para aumentar as vendas de livros sobre autismo.",
-      "Para promover a compreensão, aceitação e inclusão de pessoas com autismo",
+      "Para promover a compreensão, aceitação e inclusão de pessoas com TEA",
       "Para reduzir o custo dos cuidados de saúde"
     ],
     correct: 1
@@ -56,18 +56,18 @@ const questions = [
   {
     question: "7) O que são as estereotipias?",
     options: [
-      "Ações repetitivas que podem ajudar a pessoa com autismo a lidar com emoções e sensações",
-      "Um tipo de medicamento para o autismo",
-      "Um método de terapia para o autismo"
+      "Ações repetitivas que podem ajudar a pessoa com TEA a lidar com emoções e sensações",
+      "Um tipo de medicamento para o TEA",
+      "Um método de terapia para o TEA"
     ],
     correct: 0
   },
   {
     question: "8) O que significa 'espectro' no termo 'Transtorno do Espectro Autista'?",
     options: [
-      "Que o autismo é uma doença que pode ser transmitida de pessoa para pessoa",
-      "Que o autismo é um grupo de condições com diferentes níveis de intensidade e características",
-      "Que o autismo é uma doença que afeta diferentes partes do corpo"
+      "Que o TEA é uma doença que pode ser transmitida de pessoa para pessoa",
+      "Que o TEA é um grupo de condições com diferentes níveis de intensidade e características",
+      "Que o TEA é uma doença que afeta diferentes partes do corpo"
     ],
     correct: 1
   },
@@ -75,17 +75,17 @@ const questions = [
     question: "9) O que é a ecolalia?",
     options: [
       "Repetição de frases ou palavras",
-      "Um tipo de dança popular entre pessoas com autismo",
-      "Um tipo de alimento que ajuda a melhorar o comportamento de pessoas com autismo"
+      "Um tipo de dança popular entre pessoas com TEA",
+      "Um tipo de alimento que ajuda a melhorar o comportamento de pessoas com TEA"
     ],
     correct: 0
   },
   {
-    question: "10) No Brasil, quais recursos de assistência estão disponíveis para pessoas com autismo?",
+    question: "10) No Brasil, quais recursos de assistência estão disponíveis para pessoas com TEA?",
     options: [
       "Tratamentos adequados com o SUS, acompanhamento de psicólogos, psiquiatras, terapias e atendimento ao CAPS",
       "Acesso gratuito a universidades e escolas de elite",
-      "Auxílio financeiro mensal para todas as pessoas com autismo"
+      "Auxílio financeiro mensal para todas as pessoas com TEA"
     ],
     correct: 0
   }
@@ -193,4 +193,4 @@ nextButton.addEventListener('click', () => {
   }
 });
 
-loadQuestion();
+loadQuestion(); 
